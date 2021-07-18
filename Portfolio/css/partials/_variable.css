@@ -1,0 +1,34 @@
+html, body {
+  margin: 0%;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  min-width: 800px;
+  height: 100%;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(155, 144, 144);
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(38, 38, 38);
+}
+/*css variables*/
+
+:root {
+  --primary-color: #4458dc;
+  --primary-color2: #854fee;
+  --title-color: #141313;
+  --text-color: #777777;
+  --border-color: #00000027;
+  --gradient-color: linear-gradient(90deg, #5b2f70 0%, #b651ae 100%);
+  --shadow-color: 0px 10px 20px rgba(78, 67, 116, 0.09);
+  --box-shadow: 1px 10px 20px 1px rgba(0, 0, 0, 0.46);
+  /*font family*/
+  --roboto: 'Roboto', cursive;
+  --kaushan: 'kaushan', cursive;
+}
